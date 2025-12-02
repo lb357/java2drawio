@@ -1,0 +1,56 @@
+
+<mxfile host="app.diagrams.net" version="29.2.1">
+  <diagram name="JavaToCodeScheme" id="jtcsid">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="17647047906175837232" parent="1" style="ellipse;" value="Начало" vertex="1">
+          <mxGeometry height="80" width="160" x="0" y="0" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17647047906172347872" parent="1" value="int N=100 " vertex="1">
+          <mxGeometry height="80" width="160" x="0" y="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17647047906178461632" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;" source="17647047906175837232" target="17647047906172347872" >
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17647047906173033848" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter" value="Ввод x∈N" vertex="1">
+          <mxGeometry height="80" width="160" x="0" y="360" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17647047906171136390" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;" source="17647047906172347872" target="17647047906173033848" >
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17647047906173291550" parent="1" value="int y=N*x " vertex="1">
+          <mxGeometry height="80" width="160" x="0" y="480" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17647047906179952478" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;" source="17647047906173033848" target="17647047906173291550" >
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17647047906178019291" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter" value="Вывод N" vertex="1">
+          <mxGeometry height="80" width="160" x="0" y="600" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17647047906171721312" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;" source="17647047906173291550" target="17647047906178019291" >
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17647047906171627721" parent="1" style="ellipse;" value="Конец" vertex="1">
+          <mxGeometry height="80" width="160" x="0" y="720" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17647047906175853694" parent="1" edge="1" style="edgeStyle=orthogonalEdgeStyle;" source="17647047906178019291" target="17647047906171627721" >
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
